@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>qunit Test examples</title>
+    <link rel="stylesheet" href="https://code.jquery.com/qunit/qunit-2.2.1.css">
+    <script src="https://code.jquery.com/qunit/qunit-2.2.1.js"></script>
+    <script src="math.js"></script>
+    <script>
+    QUnit.test('test add function', function(assert) {
+      assert.equal(add(2,3), 4);
+      assert.equal(add(6,7), 13);
+      assert.equal(add(7,7), 10);
+    });
+    </script>
+</head>
+<body>
+<div id="qunit"></div>
+</body>
+</html>

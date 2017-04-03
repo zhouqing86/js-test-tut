@@ -1,5 +1,5 @@
 {
-  "name": "js-test-tut",
+  "name": "4-jasmine",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,8 +7,5 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
-  "license": "ISC",
-  "devDependencies": {
-    "jasmine": "^2.5.3"
-  }
+  "license": "ISC"
 }
